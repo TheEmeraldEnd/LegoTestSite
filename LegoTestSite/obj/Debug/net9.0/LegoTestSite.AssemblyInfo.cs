@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LegoTestSite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75377d72b7d721aa6851b16842ca45e061f1c3d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("LegoTestSite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LegoTestSite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
