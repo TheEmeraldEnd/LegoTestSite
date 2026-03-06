@@ -7,6 +7,8 @@ namespace LegoTestSite
     {
         public static void Main(string[] args)
         {
+            //TODO: Add in SQLite for unit testing
+
             #region MySQL connector (possible to depreciate)
             SensitiveReader.PrepLoginCredentials();
             //////Temporary until ReadOnly user can be accessed
