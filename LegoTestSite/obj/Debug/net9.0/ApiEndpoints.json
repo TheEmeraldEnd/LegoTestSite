@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "LegoTestSite.Controllers.WeatherForecastController",
+    "ContainingType": "LegoTestSite.Controllers.DatabaseController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "Database/Database",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LegoTestSite.WeatherForecast, LegoTestSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -18,6 +18,108 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "EndpointName": "GetTestValue"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.SetDetailsController",
+    "Method": "GetSetDetails",
+    "RelativePath": "SetDetails/SetDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSetDetails"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.SetDetailsBagsInfoController",
+    "Method": "GetSetDetailsBagsInfo",
+    "RelativePath": "SetDetails/SetDetailsBagsInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSetBagDetailsInfo"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.SetDetailsNotesInfoController",
+    "Method": "GetSetDetailsNotesInfo",
+    "RelativePath": "SetDetails/SetDetailsNotesInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSetDetailsNotesInfo"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.SetGalleryController",
+    "Method": "GetSetGallery",
+    "RelativePath": "SetGallery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSetGallery"
   }
 ]

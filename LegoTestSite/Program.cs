@@ -1,3 +1,5 @@
+using LegoTestSite.FileRelated;
+using MySqlConnector;
 
 namespace LegoTestSite
 {
@@ -5,11 +7,21 @@ namespace LegoTestSite
     {
         public static void Main(string[] args)
         {
+            #region MySQL connector (possible to depreciate)
+            SensitiveReader.PrepLoginCredentials();
+            //////Temporary until ReadOnly user can be accessed
+            MySQLConnectionManager.UserID = SensitiveReader.GetUserID();
+            MySQLConnectionManager.ServerIP = SensitiveReader.GetServerIP();
+            MySQLConnectionManager.Password = SensitiveReader.GetPassword();
+            MySQLConnectionManager.DatabaseName = SensitiveReader.GetDatabaseName();
+            #endregion
+
+            #region old default section
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
@@ -29,6 +41,7 @@ namespace LegoTestSite
             app.MapControllers();
 
             app.Run();
+            #endregion
         }
     }
 }

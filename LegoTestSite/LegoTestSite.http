@@ -4,3 +4,5 @@ GET {{LegoTestSite_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{LegoTestSite_HostAddress}}/Database/
+Accept: application/json
