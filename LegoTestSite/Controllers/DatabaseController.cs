@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LegoTestSite.Controllers
 {
-    //Use 40499 as test
+    //Not used for databases[Depriciated] 
+    //Use 30707 as test
     [Route("Database/[controller]")]
     [ApiController]
     public class DatabaseController : ControllerBase

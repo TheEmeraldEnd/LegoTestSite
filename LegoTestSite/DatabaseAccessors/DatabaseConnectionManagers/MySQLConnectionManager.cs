@@ -3,9 +3,9 @@ using Newtonsoft.Json;
 using System.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace LegoTestSite
+namespace LegoTestSite.DatabaseAccessors.DatabaseConnectionManagers
 {
-    public static class MySQLConnectionManager
+    public class MySQLConnectionManager : IDatabaseAccessor
     {
         #region Connection Loggin Details
         /// <summary>
@@ -56,6 +56,19 @@ namespace LegoTestSite
             }
         }
 
+        public bool _isInitializedConnectionConnected = false;
+        public bool IIsInstantiationConnectionConnected
+        {
+            get
+            {
+                return _isInitializedConnectionConnected;
+            }
+            set
+            {
+                _isInitializedConnectionConnected = value;
+            }
+        }
+
         /// <summary>
         /// Used to get the connection ID to be able to get to the MySQL database
         /// </summary>
@@ -65,7 +78,6 @@ namespace LegoTestSite
             return GetConnectionString(_databaseName);
         }
 
-        //TODO: Dual needs testing
         /// <summary>
         /// Used to get the connection ID to be able to get to the MySQL database (capable of using dual)
         /// </summary>
@@ -86,12 +98,34 @@ namespace LegoTestSite
             return connectionString;
         }
 
-        public static void InitializeConnection(string connectionString)
+        /// <summary>
+        /// Attempts to initialize the connection (is required at least for the connection).
+        /// </summary>
+        public void IInitializeConnection()
         {
-            if (connectionString == null)
-            {
+            #region Login
+            SensitiveReader.PrepLoginCredentials();
+
+            MySQLConnectionManager.UserID = SensitiveReader.GetUserID();
+            MySQLConnectionManager.ServerIP = SensitiveReader.GetServerIP();
+            MySQLConnectionManager.Password = SensitiveReader.GetPassword();
+            MySQLConnectionManager.DatabaseName = SensitiveReader.GetDatabaseName();
+            #endregion
+
+            string connectionString = GetConnectionString();
+
+            if (_connectionInstance is null)
                 _connectionInstance = new(connectionString);
+
+            try
+            {
+                _isInitializedConnectionConnected = _connectionInstance.Ping();
             }
+            catch(Exception exception)
+            {
+                Console.WriteLine($"{exception.Message}");
+            }
+            
         }
         #endregion
 
@@ -103,9 +137,6 @@ namespace LegoTestSite
         {
             get
             {
-                if (_connectionInstance == null)
-                    _connectionInstance = new(GetConnectionString());
-
                 return _connectionInstance;
             }
         }
@@ -232,7 +263,7 @@ namespace LegoTestSite
         /// Gets the details of each set. This will allow a good overlook of all sets.
         /// </summary>
         /// <returns></returns>
-        public static string GetSetGalleryDetails()
+        public string IGetSetGallery()
         {
             string command = 
                 "SELECT SetID, Name, TotalSetPieces, IsTested, PhotoURL " +
@@ -247,7 +278,7 @@ namespace LegoTestSite
         /// </summary>
         /// <param name="incomingSetID"></param>
         /// <returns></returns>
-        public static string GetSetDetails(string incomingSetID)
+        public string IGetSetDetails(string incomingSetID)
         {
             string command =
                 $"SELECT SetID, IsTested, Notes, PhotoURL, Name, InstructionsURL, TotalSetPieces " +
@@ -266,7 +297,7 @@ namespace LegoTestSite
         /// <returns></returns>
         /// 
         //Something is wrong here
-        public static string GetSetDetailsBagsInfo(string incomingSetID)
+        public string IGetSetDetailsBagsInfo(string incomingSetID)
         {
             string command =
             //$"SELECT " +
@@ -317,7 +348,7 @@ namespace LegoTestSite
         /// </summary>
         /// <param name="incomingSetID"></param>
         /// <returns></returns>
-        public static string GetSetDetailsNotesInfo(string incomingSetID)
+        public string IGetSetDetailsNotesInfo(string incomingSetID)
         {
             string command = 
                 $"SELECT SetID, Name, Notes " +

@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LegoTestSite.DatabaseAccessors;
+using LegoTestSite.DatabaseAccessors.DatabaseConnectionManagers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LegoTestSite.Controllers
 {
-    [Route("SetDetails/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SetDetailsController : ControllerBase
     {
@@ -16,7 +18,7 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetDetails")]
         public string GetSetDetails(string setID)
         {
-            return MySQLConnectionManager.GetSetDetails(setID);
+            return DatabaseAccessorStatic.GetSetDetails(setID);
         }
     }
 }

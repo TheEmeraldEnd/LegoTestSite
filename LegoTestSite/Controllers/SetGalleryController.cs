@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LegoTestSite.DatabaseAccessors;
+using LegoTestSite.DatabaseAccessors.DatabaseConnectionManagers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LegoTestSite.Controllers
 {
@@ -16,7 +18,7 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetGallery")]
         public string GetSetGallery()
         {
-            return MySQLConnectionManager.GetSetGalleryDetails();
+            return DatabaseAccessorStatic.GetSetGallery();
         }
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\sensitive.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:sensitive.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\databaseaccessors\\databaseconnectionmanagers\\mysqlconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:databaseaccessors\\databaseconnectionmanagers\\mysqlconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\databaseaccessors\\databaseaccessorstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:databaseaccessors\\databaseaccessorstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\sensitivereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:sensitivereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SensitiveReader.cs",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\SensitiveReader.cs",
-              "RelativeDocumentMoniker": "SensitiveReader.cs",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\SensitiveReader.cs",
-              "RelativeToolTip": "SensitiveReader.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T20:28:04.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sensitive.json",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Sensitive.json",
-              "RelativeDocumentMoniker": "Sensitive.json",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Sensitive.json",
-              "RelativeToolTip": "Sensitive.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T20:25:38.206Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -57,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DatabaseAccessorStatic.cs",
+              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseAccessorStatic.cs",
+              "RelativeDocumentMoniker": "DatabaseAccessors\\DatabaseAccessorStatic.cs",
+              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseAccessorStatic.cs",
+              "RelativeToolTip": "DatabaseAccessors\\DatabaseAccessorStatic.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:38:21.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MySQLConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
+              "RelativeDocumentMoniker": "DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
+              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
+              "RelativeToolTip": "DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:37:07.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T15:15:01.941Z",
+              "WhenOpened": "2026-03-10T14:32:41.303Z",
               "EditorCaption": ""
             }
           ]

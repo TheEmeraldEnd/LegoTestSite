@@ -1,8 +1,17 @@
 @LegoTestSite_HostAddress = http://localhost:5161
 
-GET {{LegoTestSite_HostAddress}}/weatherforecast/
+###
+GET {{LegoTestSite_HostAddress}}/SetGallery
 Accept: application/json
 
 ###
-GET {{LegoTestSite_HostAddress}}/Database/
+GET {{LegoTestSite_HostAddress}}/SetDetails?setID=30707
+Accept: application/json
+
+###
+GET {{LegoTestSite_HostAddress}}/SetDetailsNotesInfo?setID=30707
+Accept: application/json
+
+###
+GET {{LegoTestSite_HostAddress}}/SetDetailsBagsInfo?setID=30707
 Accept: application/json

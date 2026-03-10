@@ -23,7 +23,7 @@
   {
     "ContainingType": "LegoTestSite.Controllers.SetDetailsController",
     "Method": "GetSetDetails",
-    "RelativePath": "SetDetails/SetDetails",
+    "RelativePath": "SetDetails",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -50,7 +50,7 @@
   {
     "ContainingType": "LegoTestSite.Controllers.SetDetailsBagsInfoController",
     "Method": "GetSetDetailsBagsInfo",
-    "RelativePath": "SetDetails/SetDetailsBagsInfo",
+    "RelativePath": "SetDetailsBagsInfo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -77,7 +77,7 @@
   {
     "ContainingType": "LegoTestSite.Controllers.SetDetailsNotesInfoController",
     "Method": "GetSetDetailsNotesInfo",
-    "RelativePath": "SetDetails/SetDetailsNotesInfo",
+    "RelativePath": "SetDetailsNotesInfo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

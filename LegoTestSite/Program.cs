@@ -1,4 +1,5 @@
-using LegoTestSite.FileRelated;
+using LegoTestSite.DatabaseAccessors;
+using LegoTestSite.DatabaseAccessors.DatabaseConnectionManagers;
 using MySqlConnector;
 
 namespace LegoTestSite
@@ -7,16 +8,7 @@ namespace LegoTestSite
     {
         public static void Main(string[] args)
         {
-            //TODO: Add in SQLite for unit testing
-
-            #region MySQL connector (possible to depreciate)
-            SensitiveReader.PrepLoginCredentials();
-            //////Temporary until ReadOnly user can be accessed
-            MySQLConnectionManager.UserID = SensitiveReader.GetUserID();
-            MySQLConnectionManager.ServerIP = SensitiveReader.GetServerIP();
-            MySQLConnectionManager.Password = SensitiveReader.GetPassword();
-            MySQLConnectionManager.DatabaseName = SensitiveReader.GetDatabaseName();
-            #endregion
+            DatabaseAccessorStatic.InitializeDatabaseConnection(true);
 
             #region old default section
             var builder = WebApplication.CreateBuilder(args);
