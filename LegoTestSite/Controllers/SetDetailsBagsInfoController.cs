@@ -18,7 +18,9 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetBagDetailsInfo")]
         public string GetSetDetailsBagsInfo(string setID)
         {
-            return DatabaseAccessorStatic.GetSetDetailsBagsInfo(setID);
+            string result = "Error";
+            result = DatabaseAccessorStatic.GetSetDetailsBagsInfo(setID);
+            return result;
         }
     }
 }

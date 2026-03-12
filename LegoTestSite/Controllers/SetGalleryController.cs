@@ -18,7 +18,16 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetGallery")]
         public string GetSetGallery()
         {
-            return DatabaseAccessorStatic.GetSetGallery();
+            string result = "";
+            try
+            {
+                result =DatabaseAccessorStatic.GetSetGallery();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"{ex.Source}: {ex.Message}");
+            }
+            return result;
         }
     }
 }

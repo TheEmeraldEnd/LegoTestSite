@@ -18,7 +18,22 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetDetails")]
         public string GetSetDetails(string setID)
         {
-            return DatabaseAccessorStatic.GetSetDetails(setID);
+            string result = "Error";
+            try
+            {
+                result = DatabaseAccessorStatic.GetSetDetails(setID);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"{ex.Source}: {ex.Message}");
+            }
+            
+            if (!result.Contains(setID))
+            {
+                _logger.LogError($"setID {setID} not found in database");
+            }
+
+            return result;
         }
     }
 }

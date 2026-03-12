@@ -18,7 +18,18 @@ namespace LegoTestSite.Controllers
         [HttpGet(Name = "GetSetDetailsNotesInfo")]
         public string GetSetDetailsNotesInfo(string setID)
         {
-            return DatabaseAccessorStatic.GetSetDetailsNotesInfo(setID);
+            string result = "Error";
+
+            try
+            {
+                result = DatabaseAccessorStatic.GetSetDetailsNotesInfo(setID);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"{ex.Source}: {ex.Message}");
+            }
+
+            return result;
         }
     }
 }

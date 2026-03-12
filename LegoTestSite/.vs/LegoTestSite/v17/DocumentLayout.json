@@ -1,22 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\",
+  "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\owner\\documents\\github\\legotestsite\\legotestsite\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\owner\\documents\\github\\legotestsite\\legotestsite\\controllers\\setdetailsbagsinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:controllers\\setdetailsbagsinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\owner\\documents\\github\\legotestsite\\legotestsite\\controllers\\setdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:controllers\\setdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\LegoSiteClientAccess\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\owner\\documents\\github\\legotestsite\\legotestsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\databaseaccessors\\databaseaccessorstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:databaseaccessors\\databaseaccessorstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|c:\\users\\sage\\documents\\github\\legotestsite\\legotestsite\\databaseaccessors\\databaseconnectionmanagers\\mysqlconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B215B964-2603-41CF-99C4-FE6E92B2C49F}|LegoTestSite.csproj|solutionrelative:databaseaccessors\\databaseconnectionmanagers\\mysqlconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,51 +38,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.txt",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\README.txt",
-              "RelativeDocumentMoniker": "README.txt",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\README.txt",
-              "RelativeToolTip": "README.txt",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-12T14:34:26.446Z",
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA+wBMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:44:09.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DatabaseAccessorStatic.cs",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseAccessorStatic.cs",
-              "RelativeDocumentMoniker": "DatabaseAccessors\\DatabaseAccessorStatic.cs",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseAccessorStatic.cs",
-              "RelativeToolTip": "DatabaseAccessors\\DatabaseAccessorStatic.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Title": "SetDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\SetDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SetDetailsController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\SetDetailsController.cs",
+              "RelativeToolTip": "Controllers\\SetDetailsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:38:21.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MySQLConnectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
-              "RelativeDocumentMoniker": "DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
-              "RelativeToolTip": "DatabaseAccessors\\DatabaseConnectionManagers\\MySQLConnectionManager.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:37:07.859Z"
+              "WhenOpened": "2026-03-12T21:39:33.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Sage\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAtAAAAAAAAAA==",
+              "Title": "SetDetailsBagsInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\SetDetailsBagsInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SetDetailsBagsInfoController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Controllers\\SetDetailsBagsInfoController.cs",
+              "RelativeToolTip": "Controllers\\SetDetailsBagsInfoController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:32:41.303Z",
+              "WhenOpened": "2026-03-12T21:37:46.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\LegoTestSite\\LegoTestSite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:22:51.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\LegoSiteClientAccess\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\LegoSiteClientAccess\\Program.cs",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\LegoSiteClientAccess\\Program.cs",
+              "RelativeToolTip": "..\\..\\LegoSiteClientAccess\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAewCQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T20:42:52.341Z",
               "EditorCaption": ""
             }
           ]
