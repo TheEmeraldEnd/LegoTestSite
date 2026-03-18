@@ -121,5 +121,107 @@
       }
     ],
     "EndpointName": "GetSetGallery"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.TestSetDetailsController",
+    "Method": "TestGetSetDetails",
+    "RelativePath": "Test/TestSetDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TestGetSetDetails"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.TestSetDetailsBagsInfoController",
+    "Method": "TestGetSetDetailsBagsInfo",
+    "RelativePath": "Test/TestSetDetailsBagsInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TestGetSetBagDetailsInfo"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.TestSetDetailsNotesInfoController",
+    "Method": "TestGetSetDetailsNotesInfo",
+    "RelativePath": "Test/TestSetDetailsNotesInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TestGetSetDetailsNotesInfo"
+  },
+  {
+    "ContainingType": "LegoTestSite.Controllers.TestSetGalleryController",
+    "Method": "TestGetSetGallery",
+    "RelativePath": "Test/TestSetGallery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TestGetSetGallery"
   }
 ]

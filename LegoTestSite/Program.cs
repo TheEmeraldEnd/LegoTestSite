@@ -8,7 +8,10 @@ namespace LegoTestSite
     {
         public static void Main(string[] args)
         {
-            DatabaseAccessorStatic.InitializeDatabaseConnection(true);
+            DatabaseAccessorStatic.InitializeDatabaseRef(
+                new MySQLConnectionManager(),
+                new SQLiteConnectionManager(),
+                false);
 
             #region old default section
             var builder = WebApplication.CreateBuilder(args);
